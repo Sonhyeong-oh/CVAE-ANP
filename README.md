@@ -12,10 +12,10 @@ This dataset is one of two industry-grade datasets captured during an 8-hour con
 * Sensor Data Link (with Label) : https://drive.google.com/drive/folders/1R71k4fW60_n5c6xpqV3_a8dTtf7nWYnK
 
 # AE(AutoEncoder)
-* Reference Link 1 : https://github.com/AntixK/PyTorch-VAE (VAE)
-* Reference Link 2 : https://github.com/rosinality/vq-vae-2-pytorch (VQ-VAE)
+* Reference Code Link 1 : https://github.com/AntixK/PyTorch-VAE (VAE)
+* Reference Code Link 2 : https://github.com/rosinality/vq-vae-2-pytorch (VQ-VAE)
 * Reference Paper : https://arxiv.org/abs/1312.6114 (Diederik P Kingma, Max Welling, "Auto-Encoding Variational Bayes", 2013)
 
 # ANP(Attentive Neural Process)
-* Reference Link : https://github.com/wassname/attentive-neural-processes
+* Reference Code Link : https://github.com/wassname/attentive-neural-processes
 * Reference Paper : https://arxiv.org/abs/1901.05761 (Hyunjik Kim, et al., "Attentive Neural Processes", 2019)
