@@ -7,7 +7,7 @@ Multimodal Anomaly Detection in Industrial Image and Sensor Data using AutoEncod
 This dataset is one of two industry-grade datasets captured during an 8-hour continuous operation of the manufacturing assembly line at the Future Factories Lab, University of South Carolina, on 08/13/2024.
 * Link : https://www.kaggle.com/datasets/ramyharik/ff-2024-08-13-multi-modal-dataset-13
 
-## Dataset for Google Colab
+## Dataset in Google Drive
 * Multimodal Data Link : https://drive.google.com/drive/folders/1qkE7suLerbn4aBD4ZFyMlKmlNV9bkUIQ
 * Sensor Data Link (with Label) : https://drive.google.com/drive/folders/1R71k4fW60_n5c6xpqV3_a8dTtf7nWYnK
 
