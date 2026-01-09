@@ -1,5 +1,6 @@
 # AE-ANP
-Multimodal Anomaly Detection in Industrial Image and Sensor Data using AutoEncoder and ANP
+주제 : 오토인코더-ANP 결합 모델을 통한 공정 이상 예측
+저자 : 손형오, 최우성, 이영재, 김영균
 
 # Dataset
 <img width="840" height="560" alt="image" src="https://github.com/user-attachments/assets/e814ac95-1f3d-4e4e-ab59-6fb2df2f3382" />
