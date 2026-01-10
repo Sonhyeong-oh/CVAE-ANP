@@ -26,7 +26,7 @@ This dataset is one of two industry-grade datasets captured during an 8-hour con
 5. XAI_test: Anomaly detection evaluation and automated root cause analysis.
 
 # AE(AutoEncoder)
-* Reference Code Link 1 : https://github.com/AntixK/PyTorch-VAE (VAE)
+* Reference Code Link 1 : https://github.com/AntixK/PyTorch-VAE (VAE, CVAE)
 * Reference Code Link 2 : https://github.com/rosinality/vq-vae-2-pytorch (VQ-VAE)
 * Reference Paper : https://arxiv.org/abs/1312.6114 (Diederik P Kingma, Max Welling, "Auto-Encoding Variational Bayes", 2013)
 
