@@ -25,6 +25,8 @@ This dataset is one of two industry-grade datasets captured during an 8-hour con
 
 5. XAI_test10: Anomaly detection evaluation and automated root cause analysis.
 
+6. train_cvae_anp2.py: Multimodal fusion and joint training using visual and sensor information for CVAE-ANP combined model (change VAE to CVAE).
+
 # AE(AutoEncoder)
 * Reference Code Link 1 : https://github.com/AntixK/PyTorch-VAE (VAE, CVAE)
 * Reference Code Link 2 : https://github.com/rosinality/vq-vae-2-pytorch (VQ-VAE)
