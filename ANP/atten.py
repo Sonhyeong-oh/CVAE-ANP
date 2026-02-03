@@ -92,15 +92,16 @@ class Attention(nn.Module):
         else:
             raise NotImplementedError
 
-    def forward(self, k, v, q):
+    def forward(self, k, v, q, **kwargs):
         if self._rep == "mlp":
             k = self.batch_mlp_k(k)
             q = self.batch_mlp_q(q)
         elif self._rep == "lstm":
             k = self.batch_lstm(k)
             q = self.batch_lstm(q)
-        rep = self._attention_func(k, v, q)
-        return rep
+        # In the context of 'ptmultihead', self._attention_func now returns a (rep, weights) tuple.
+        # This modification assumes 'ptmultihead' is being used.
+        return self._attention_func(k, v, q, **kwargs)
 
     def _uniform_attention(self, k, v, q):
         total_points = q.shape[1]
@@ -138,6 +139,6 @@ class Attention(nn.Module):
         rep = self._W(outs)
         return rep
 
-    def _pytorch_multihead_attention(self, k, v, q):
+    def _pytorch_multihead_attention(self, k, v, q, **kwargs):
         # Pytorch multiheaded attention takes inputs if diff order and permutation
-        return batch_first_attention(self._W, q=q, k=k, v=v)[0]
+        return batch_first_attention(self._W, q=q, k=k, v=v, **kwargs)
